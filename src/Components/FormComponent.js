@@ -44,7 +44,7 @@ const FormComponent = () => {
         <h1>EMPLOYEE FEEDBACK DATA</h1>
           <div className='dataArea'>
             {arrofobj.map((item)=>{
-                return <div className='card'>Name : {item.name} | Department : {item.department} Rating : {item.rating}</div>
+                return <div className='card'>Name : {item.name} | Department : {item.department} | Rating : {item.rating}</div>
             })}
           </div>
           <button onClick={goBack}>Go Back</button>
